@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import MovieCard from './MovieCard';
 
 import './App.css';
-import SearchIcon from './search.svg';
+import SearchIcon from './icons8-search.svg';
 
 // 855478c7
 
@@ -36,7 +36,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>MovieLand</h1>
+      <h1>MovieFinder</h1>
 
       <div className="search">
         <input
